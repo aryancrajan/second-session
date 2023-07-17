@@ -1,5 +1,5 @@
 const a=['react','array','edstem'];
-const str='edstmite';
+const str='edstem';
 f=true;
 for(let i=0;i<a.length;i++)
     {
@@ -8,6 +8,8 @@ for(let i=0;i<a.length;i++)
         for(let j=0;j<str.length;j++)
             if(a[i][j]!=str[j])
                 f=false;
+            else 
+                f=true;
         }
     else
         f=false;
