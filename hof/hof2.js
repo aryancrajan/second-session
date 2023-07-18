@@ -1,7 +1,7 @@
-var a=[2,3,4,5,6]
-
-a.forEach(function(e,i)
+const a=[2,3,4,5,6]
+var b=a.map(function(e)
 {
-    a[i]=2*e;
+    return e*2
 })
-console.log(a)
+
+console.log(a,b)
