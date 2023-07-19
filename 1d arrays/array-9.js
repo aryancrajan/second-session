@@ -1,17 +1,14 @@
-const a=['react','array','edstem'];
+const a=['react','array','edstem','private'];
 const str='edstem';
 f=true;
 for(let i=0;i<a.length;i++)
     {
-    if(a[i].length==str.length)
-        {
-        for(let j=0;j<str.length;j++)
-            if(a[i][j]!=str[j])
-                f=false;
-            else 
-                f=true;
-        }
-    else
-        f=false;
+        if(a[i]!=str)
+            f=false;
+        else
+            { 
+            f=true;
+            break;
+            }
     }
 console.log(f)
